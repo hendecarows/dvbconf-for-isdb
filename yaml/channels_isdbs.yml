@@ -58,6 +58,10 @@
   type: BS
   channel: BS15_1
   isDisabled: false
+- name: BS15_2
+  type: BS
+  channel: BS15_2
+  isDisabled: false
 - name: BS19_0
   type: BS
   channel: BS19_0
@@ -93,10 +97,6 @@
 - name: BS23_1
   type: BS
   channel: BS23_1
-  isDisabled: false
-- name: BS23_2
-  type: BS
-  channel: BS23_2
   isDisabled: false
 - name: BS23_3
   type: BS
