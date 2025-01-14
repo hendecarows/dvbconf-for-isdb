@@ -1,0 +1,30 @@
+- name: px4video4
+  types:
+    - BS
+    - CS
+  command: recpt1 --device /dev/px4video4 <channel> - -
+  decoder: arib-b25-stream-test
+  isDisabled: true
+
+- name: px4video5
+  types:
+    - BS
+    - CS
+  command: recpt1 --device /dev/px4video5 <channel> - -
+  decoder: arib-b25-stream-test
+  isDisabled: true
+
+- name: px4video6
+  types:
+    - GR
+  command: recpt1 --device /dev/px4video6 <channel> - -
+  decoder: arib-b25-stream-test
+  isDisabled: true
+
+- name: px4video7
+  types:
+    - GR
+  command: recpt1 --device /dev/px4video7 <channel> - -
+  decoder: arib-b25-stream-test
+  isDisabled: true
+

@@ -1,0 +1,35 @@
+- name: isdb6014video0
+  types:
+    - GR
+    - BS
+    - CS
+  command: recpt1 --device /dev/isdb6014video0 <channel> - -
+  decoder: arib-b25-stream-test
+  isDisabled: false
+
+- name: isdb6014video1
+  types:
+    - GR
+    - BS
+    - CS
+  command: recpt1 --device /dev/isdb6014video1 <channel> - -
+  decoder: arib-b25-stream-test
+  isDisabled: false
+
+- name: isdb6014video2
+  types:
+    - GR
+    - BS
+    - CS
+  command: recpt1 --device /dev/isdb6014video2 <channel> - -
+  decoder: arib-b25-stream-test
+  isDisabled: false
+
+- name: isdb6014video3
+  types:
+    - GR
+    - BS
+    - CS
+  command: recpt1 --device /dev/isdb6014video3 <channel> - -
+  decoder: arib-b25-stream-test
+  isDisabled: false
