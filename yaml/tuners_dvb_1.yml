@@ -1,10 +1,9 @@
-# DVB
-
 - name: adapter0
   types:
-    - GR
+    - BS
+    - CS
   dvbDevicePath: /dev/dvb/adapter0/dvr0
-  command: dvbv5-zap -a 0 -c /app-config/dvbv5_channels_isdbt.conf -r -P <channel>
+  command: dvbv5-zap -a 0 -c /app-config/dvbv5_channels_isdbs.conf -r -P <channel>
   decoder: arib-b25-stream-test
   isDisabled: false
 
@@ -27,44 +26,9 @@
 
 - name: adapter3
   types:
-    - BS
-    - CS
+    - GR
   dvbDevicePath: /dev/dvb/adapter3/dvr0
-  command: dvbv5-zap -a 3 -c /app-config/dvbv5_channels_isdbs.conf -r -P <channel>
+  command: dvbv5-zap -a 3 -c /app-config/dvbv5_channels_isdbt.conf -r -P <channel>
   decoder: arib-b25-stream-test
   isDisabled: false
 
-
-- name: adapter4
-  types:
-    - GR
-  dvbDevicePath: /dev/dvb/adapter4/dvr0
-  command: dvbv5-zap -a 4 -c /app-config/dvbv5_channels_isdbt.conf -r -P <channel>
-  decoder: arib-b25-stream-test
-  isDisabled: false
-
-- name: adapter5
-  types:
-    - GR
-  dvbDevicePath: /dev/dvb/adapter5/dvr0
-  command: dvbv5-zap -a 5 -c /app-config/dvbv5_channels_isdbt.conf -r -P <channel>
-  decoder: arib-b25-stream-test
-  isDisabled: false
-
-- name: adapter6
-  types:
-    - BS
-    - CS
-  dvbDevicePath: /dev/dvb/adapter6/dvr0
-  command: dvbv5-zap -a 6 -c /app-config/dvbv5_channels_isdbs.conf -r -P <channel>
-  decoder: arib-b25-stream-test
-  isDisabled: false
-
-- name: adapter7
-  types:
-    - BS
-    - CS
-  dvbDevicePath: /dev/dvb/adapter7/dvr0
-  command: dvbv5-zap -a 7 -c /app-config/dvbv5_channels_isdbs.conf -r -P <channel>
-  decoder: arib-b25-stream-test
-  isDisabled: false
