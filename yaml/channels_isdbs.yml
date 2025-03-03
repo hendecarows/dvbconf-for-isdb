@@ -34,9 +34,9 @@
   type: BS
   channel: BS09_0
   isDisabled: false
-- name: BS09_2
+- name: BS09_1
   type: BS
-  channel: BS09_2
+  channel: BS09_1
   isDisabled: false
 - name: BS13_0
   type: BS
@@ -98,9 +98,9 @@
   type: BS
   channel: BS23_1
   isDisabled: false
-- name: BS23_3
+- name: BS23_2
   type: BS
-  channel: BS23_3
+  channel: BS23_2
   isDisabled: false
 - name: CS2
   type: CS
